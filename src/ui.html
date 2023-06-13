@@ -1,0 +1,54 @@
+<div id="app" class="load-error">
+    <div class="load-error__header">
+        <div class="load-error__header-message">Oh...we have some problems</div>
+        <div class="load-error__header-user"></div>
+    </div>
+    <div class="load-error__body">
+        <svg width="90" height="90" viewBox="0 0 166 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M113.433 0.5H52.5667C50.1833 0.5 47.8 1.50833 46.15 3.15833L3.15833 46.15C1.50833 47.8 0.5 50.1833 0.5 52.5667V113.342C0.5 115.817 1.50833 118.108 3.15833 119.85L46.0583 162.75C47.8 164.492 50.1833 165.5 52.5667 165.5H113.342C115.817 165.5 118.108 164.492 119.85 162.842L162.75 119.942C164.492 118.2 165.408 115.908 165.408 113.433V52.5667C165.408 50.0917 164.4 47.8 162.75 46.0583L119.85 3.15833C118.2 1.50833 115.817 0.5 113.433 0.5ZM83 131.583C76.4 131.583 71.0833 126.267 71.0833 119.667C71.0833 113.067 76.4 107.75 83 107.75C89.6 107.75 94.9167 113.067 94.9167 119.667C94.9167 126.267 89.6 131.583 83 131.583ZM83 92.1667C77.9583 92.1667 73.8333 88.0417 73.8333 83V46.3333C73.8333 41.2917 77.9583 37.1667 83 37.1667C88.0417 37.1667 92.1667 41.2917 92.1667 46.3333V83C92.1667 88.0417 88.0417 92.1667 83 92.1667Z" fill="#FF8C00"/>
+        </svg>
+        <h2>Oh... we have some problems</h2>
+        <p>Sorry, we are not able to show results now. Please try again later.</p>  
+    </div>
+</div>
+
+
+<style>
+.load-error { 
+    min-width: calc(100% + 8px);
+    height: 100%;
+    margin: 0 -8px;
+}
+.load-error__header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.load-error__header-message {
+    font-size: 14px;
+    padding: 10px 10px 18px 10px;
+}
+.load-error__body {
+    height: calc(100% - 44px);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.load-error__body h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.load-error__body p {
+    max-width: 70%;
+    color: #4E4B66;
+    text-align: center;
+    font-size: 14px;
+}
+.load-error__body svg {
+    margin-top: -100px;
+}
+</style>

@@ -1,0 +1,15 @@
+{
+	"name": "Speller - Spell checker for design",
+	"api": "1.0.0",
+	"main": "dist/code.js",
+	"editorType": [
+		"figma",
+		"figjam"
+	  ],
+	"ui": "dist/ui.html",
+	"id": "1085813390515798975",
+	"permissions": ["currentuser"],
+	"relaunchButtons": [
+		{"command": "open", "name": "Speller"}
+	  ]
+}
